@@ -1,0 +1,229 @@
+.content {
+    font-family: 'throhand', sans-serif;
+    width: 100vw;
+}
+
+.contenedor {
+    width: 100%;
+    height: 840px;
+    position: relative;
+    background-image: url('../assets/image-par.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.flower-left {
+    width: 221px;
+    position: absolute;
+    height: 390px;
+    top: 50%;
+    float: left !important;
+    left: -6%;
+}
+
+.flower-right {
+    width: 221px;
+    height: 390px;
+    position: absolute;
+    bottom: 0;
+    right: 3%;
+    transform: translateX(50%);
+}
+
+.text-content {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    transform: translateY(200px);
+}
+
+.text-title {
+    font-size: 64px;
+    color: #79283B;
+    font-family: 'Ametrine', sans-serif;
+}
+
+.content-date {
+    margin-top: 180px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.date-img {
+    width: 550px;
+}
+
+.content-ramo {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.flower-left-second {
+    width: 221px;
+    position: absolute;
+    height: 390px;
+    float: left !important;
+    left: -6%;
+}
+
+
+.content-family {
+    margin-top: 95px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.family-title {
+    color: #79283B;
+    font-size: 32px;
+}
+
+.family-title-white {
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.text-parents {
+    font-size: 20px;
+}
+
+.img-novios {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.flower-right-second {
+    width: 221px;
+    height: 390px;
+    position: absolute;
+    right: 3%;
+    transform: translate(50%, 100%);
+}
+
+.flower-right-third {
+    width: 221px;
+    height: 390px;
+    position: absolute;
+    right: 3%;
+    transform: translate(50%);
+}
+
+.contenedor-roses {
+    position: relative;
+}
+
+.flower-left-third {
+    width: 221px;
+    position: absolute;
+    height: 390px;
+    float: left !important;
+    left: -6%;
+    top: -150px;
+}
+
+.button-defect {
+    background-color: #79283B;
+    color: #ffffff;
+    border-radius: 15px;
+    width: 191px;
+    margin-top: 10px;
+}
+
+.content-attire {
+    margin-top: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-image: url('../assets/formas2.svg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 45px;
+}
+
+.text-parents-husband-white {
+    color: #ffffff;
+}
+
+.content-hands {
+    margin-top: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 832px;
+    background-image: url('../assets/manos.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 45px;
+}
+
+.img-footer {
+    margin-top: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 832px;
+    background-image: url('../assets/image-second.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 45px;
+    position: relative;
+}
+
+.gatitos-img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+@media screen and (max-width: 768px) {
+    .flower-left {
+        left: -28%;
+    }
+    .flower-left-second {
+        left: -28%;
+    }
+    .flower-left-third {
+        left: -28%;
+    }
+
+    .flower-right-third {
+        right: -2%;
+    }
+    .flower-right {
+        right: -2%;
+    }
+    .flower-right-second {
+        right: -2%;
+    }
+}
