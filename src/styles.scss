@@ -1,3 +1,5 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.min.css';
 body {
     overflow-x: hidden;
 }
@@ -21,3 +23,5 @@ body {
         overflow-x: hidden !important;
     }
 }
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
